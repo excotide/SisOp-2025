@@ -13,9 +13,9 @@
 </div>
 
 ## 1. Basis Bilangan
-```
-1. bilangan yang dipakai biner adalah bilangan yang berbasis 2
-```
+  ```
+  1. bilangan yang dipakai biner adalah bilangan yang berbasis 2
+  ```
 
 ## 2. Konversi Bilangan Desimal ke Biner
   |Langkah-langkah:      |
@@ -32,7 +32,7 @@
   |2 ÷ 2 = 1 sisa 0  |
   |1 ÷ 2 = 0 sisa 1 |
   ```
-  Hasil: 1234 (10) = 10011010010 (a)
+  Hasil: 1234(10) = 10011010010
   ```
 
 ## 3. Konversi Bilangan Biner ke Desimal
@@ -80,7 +80,7 @@
   | 111 ÷ 16 = 6 sisa 15 (F)| 
   | ÷ 16 = 0 sisa 6  |
   ```
-  Hasil: 178010 = 06F4 (a)
+  Hasil: 178010 = 06F4
   ```
 
 ## 7. Konversi Bilangan Heksadesimal ke Desimal
@@ -91,7 +91,7 @@
   |= 40960 + 2816 + 192 + 13 |
   |= 43981|
   ```
-  Hasil: ABCD16 = 43981 (a)  
+  Hasil: ABCD16 = 43981 
   ```
 
 ## 8. Konversi Bilangan Pecahan Desimal ke Biner
@@ -102,7 +102,7 @@
   |0,25 × 2 = 0,5 → 0|
   |0,5 × 2 = 1,0 → 1|
   ```
-  Hasil: 0,312510 = 0,0101 (a) 
+  Hasil: 0,312510 = 0,0101
   ```
 
 ## 9. Konversi Bilangan Desimal ke Biner
@@ -111,7 +111,7 @@
   |Bagian bulat: 11 (10) = 1011 (2)|
   |Bagian pecahan: 0,625 (10) = 0,101 (2)|
   ```
-  Hasil: 11,625 (10) = 1011,101 (2)
+  Hasil: 11,625(10) = 1011,101(2)
   ```
 
 ## 10. Konversi Bilangan Desimal ke Heksadesimal
@@ -124,7 +124,7 @@
   |0,464 × 16 = 7,424 → 7 |
   |0,424 × 16 = 6,784 → 6 |
   ```
-  Hasil: 348,654 (10) = 15C,A76 (16) 
+  Hasil: 348,654(10) = 15C,A76(16) 
   ```
 
 ## 11. Konversi Bilangan ke Desimal
@@ -134,7 +134,7 @@
   | = 0 + 1024 + 0 + 256 + 0 + 0 + 0 + 16 + 8 + 0 + 2 + 0 |
   |= 163,245|
   ```
-  Hasil: 010100011,001111101 (2) = 163,245 (10)  
+  Hasil: 010100011,001111101(2) = 163,245(10)  
   ```
 
 ## 12. Konversi Bilangan Biner ke BCD
@@ -146,7 +146,7 @@
   |0001 (1) = 1|
   |0111 (7) = 7|
   ```
-  Hasil: 10100110000111 (2) = 2987 (BCD)
+  Hasil: 10100110000111(2) = 2987(BCD)
   ```
 
 ## 13. Rubahlah bentuk BCD di bawah ini ke dalam bilangan biner
@@ -157,7 +157,7 @@
   | 8 = 1000|
   | 7 = 0111|
   ```
-  Hasil: 1987 = 0001100100000111 (2)
+  Hasil: 1987 = 0001100100000111(2)
   ```
 
 ## 14. Rubahlah bilangan biner di bawah ini ke dalam BCO.
@@ -171,7 +171,7 @@
   |100 = 4 |
   | 1 = 1|
   ```
-  Hasil: 11111101001 (2) = 3751 (BCO) 
+  Hasil: 11111101001(2) = 3751(BCO) 
   ```
 
 ## 15. Rubahlah bilangan biner di bawah ini ke dalam BCH
@@ -184,7 +184,7 @@
   |0010 = 2|
   |1110 = E|
   ```
-  Hasil: 1101111100101110 (2) = CF2E (BCH)
+  Hasil: 1101111100101110 (2) = CF2E(BCH)
   ```
 
 ## 16. Rubahlah Bentuk BCH di bawah ini ke dalam bilangan heksadesimal
@@ -195,13 +195,13 @@
   |D = 110|
   |E = 1110|
   ```
-  Hasil: F0DE = 1111000011011110 (2) 
+  Hasil: F0DE = 1111000011011110(2) 
   ```
 
 ## 17. Nyatakan positip atau negatip bilangan biner di bawah ini
   | Biner Expression                            | Perhitungan |         
   |:-------------------------------------------:|:-----------:|
-  | (0×2⁷) + (1×2⁶) + (1×2⁵) + (1×2⁴) + (1×2³) + (1×2²) + (1×2¹) + (1×2⁰) | 0 + 64 + 32 + 16 + 8 + 4 + 2 + 1 |
+  | (0×2^7) + (1×2^6) + (1×2^5) + (1×2^4) + (1×2^3) + (1×2^2) + (1×2^1) + (1×2^0) | 0 + 64 + 32 + 16 + 8 + 4 + 2 + 1 |
   ```
   Hasil: 01111111 → Positip 127
   ```
@@ -217,7 +217,7 @@
 ## 19. Nyatakan ASCII Code di bawah ini dalam bentuk karakter
   | Heksadesimal | Langkah - langkah            | Hasil  |
   |:------------:|:----------------------------:|:------:|
-  | 4116   n     | (4 × 16¹) + (1 × 16⁰)        | 65     |
+  | 4116   n     | (4 × 16^1) + (1 × 16^0)      | 65     |
   ```
   Hasil: karakter ASCII = A
   ```
@@ -225,9 +225,9 @@
 ## 20. Nyatakan Karakter di bawah ini dalam ASCII code
   | Karakter | Desimal | Langkah-langkah       | Heksadesimal |
   |:--------:|:-------:|:---------------------:|:------------:|
-  | a        | 97      | 97 ÷ 16 = 6 sisa 1    | 61₁₆         |
+  | a        | 97      | 97 ÷ 16 = 6 sisa 1    | 61(16)        |
   ```
-  Hasil: Hexadesimal = 61₁₆
+  Hasil: Hexadesimal = 61(16)
   ```
 
 ## 21. Dengan Keyboard standard ASCII, pada layar monitor nampak tulisan sebagai berikut:
