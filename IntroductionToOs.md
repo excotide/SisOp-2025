@@ -55,7 +55,6 @@ Kernel Mode vs. User Mode:
   ensures that only trusted code can execute privileged instructions, enhancing overall security. 
 ```
 ## 6. Which of the following instructions should be privileged?  
-```
 a. Set value of timer. 
 b. Read the clock. 
 c. Clear memory. 
@@ -63,7 +62,8 @@ d. Issue a trap instruction.
 e. Turn off interrupts. 
 f. Modify entries in device-status table. 
 g. Switch from user to kernel mode. 
-h. Access I/O device. 
+h. Access I/O device.
+```
 Privileged Instructions: 
 • Should be privileged: 
   a. Set value of timer 
