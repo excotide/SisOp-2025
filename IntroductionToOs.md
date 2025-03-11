@@ -1,7 +1,7 @@
 <div align="center">
   <h1 >TUGAS SISTEM OPERASI</h1>
   <h2><strong>INTRODUCTION TO OS</strong></h2>
-  <img src="https://belajargiat.id/wp-content/uploads/2020/10/logo-PENS.png" alt="Pens Logo" width="350"><br>
+  <img src="https://labiqjazz.it.student.pens.ac.id/img/logo_PENS.png" alt="Pens Logo" width="350"><br>
   <h3><strong>Dosen Pengampu:</strong><br>
   Dr. Ferry Astika Saputra, S.T., M.Sc.</h3>
   <h3><strong>Disusun Oleh:</strong><br>
