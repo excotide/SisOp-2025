@@ -1,5 +1,6 @@
 <div align="center">
   <h1>TUGAS SISTEM OPERASI</h1>
+  <h2>SEMESTER 2</h2>
   <img src="https://labiqjazz.it.student.pens.ac.id/img/logo_PENS.png" alt="Pens Logo" width="350"><br>
   <h3><strong>Dosen Pengampu:</strong><br>
   Dr. Ferry Astika Saputra, S.T., M.Sc.</h3>
