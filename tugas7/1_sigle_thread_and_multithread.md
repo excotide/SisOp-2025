@@ -6,4 +6,4 @@ Single-threading merupakan metode pemrograman di mana suatu proses hanya memilik
 ## Multithread
 Multithreading memungkinkan sebuah program menjalankan beberapa alur eksekusi secara simultan, sehingga berbagai komponen dapat bekerja secara paralel. Dengan pendekatan ini, efisiensi dan kecepatan pemrosesan meningkat karena tugas-tugas dapat diselesaikan tanpa harus menunggu satu sama lain. Contohnya, dalam aplikasi browser, satu thread dapat mengelola pemuatan halaman, sementara thread lainnya menangani input pengguna secara bersamaan. Teknik ini sangat efektif untuk mengoptimalkan kinerja sistem, terutama dalam lingkungan yang membutuhkan pemrosesan banyak tugas secara bersamaan.
 
-![FotoSingle&Multi Thread](https://github.com/excotide/SisOp-25/blob/main/praktikum7/Screenshot%202025-04-18%20234315.png)
+![FotoSingle&Multi Thread](https://github.com/excotide/SisOp-25/blob/main/tugas7/thread.png)
