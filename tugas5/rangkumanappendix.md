@@ -1,16 +1,4 @@
-<div align="center">
-  <h1 >TUGAS SISTEM OPERASI</h1>
-  <h2><strong>RANGKUMAN APPENDIX</strong></h2>
-  <img src="https://labiqjazz.it.student.pens.ac.id/img/logo_PENS.png" alt="Pens Logo" width="350"><br>
-  <h3><strong>Dosen Pengampu:</strong><br>
-  Dr. Ferry Astika Saputra, S.T., M.Sc.</h3>
-  <h3><strong>Disusun Oleh:</strong><br>
-  Muhammad Labiq Jazli (3124521029)</h3><br>
-  <h2><strong>PROGRAM STUDI D3 TEKNIK INFORMATIKA PSDKU LAMONGAN</strong><br>
-  DEPARTEMEN TEKNIK INFORMATIKA DAN KOMPUTER<br>
-  POLITEKNIK ELEKTRONIKA NEGERI SURABAYA<br>
-  2025</h2>
-</div>
+# RANGKUMAN APPENDIX
 
 ## SISTEM OPERASI YANG BERPENGARUH
 Setelah memahami dasar-dasar sistem operasi, seperti penjadwalan CPU, manajemen memori, dan proses, langkah berikutnya adalah mengeksplorasi bagaimana konsep-konsep tersebut diterapkan pada beberapa sistem operasi lama yang sangat berpengaruh. Beberapa sistem, seperti XDS-940 dan sistem THE, memiliki karakteristik unik, sedangkan yang lain, seperti OS/360, digunakan secara luas. Penyajian ini difokuskan pada persamaan dan perbedaan antar sistem tersebut, tanpa mengikuti urutan waktu atau tingkat kepentingan. Untuk mendalami sistem operasi, penting untuk mengenal semua sistem ini.
