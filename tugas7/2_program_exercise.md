@@ -1,4 +1,4 @@
-# Implementasi Thread di Berbagai Platform
+# PROGRAM EXERCISE: Implementasi Thread di Berbagai Platform
 
 ## 1. **Thread di Java (`SumTask.java`)**
 
