@@ -1,4 +1,4 @@
-# **Konsep dan Implementasi Multithreading dalam Pemrograman**
+# PRACTICE EXERCISE: Konsep dan Implementasi Multithreading dalam Pemrograman
 
 ## **4.1 Provide three programming examples in which multithreading provides better performance than a single-threaded solution.**
 Multithreading sering kali meningkatkan efisiensi dibandingkan solusi single-threaded. Berikut adalah tiga contoh penerapan multithreading:
