@@ -6,7 +6,7 @@
 ![Dev-c++ Code Screenshot](code-sjf1.png)
 
 ### Output:
-![Image](https://github.com/user-attachments/assets/c26ebc24-655d-4931-bd56-e4ba3d9698fc)
+![Dev-c++ Code Screenshot](code-sjf1.png)
 
 ### Analysis:
 This C program demonstrates the **non-preemptive Shortest Job First (SJF)** scheduling algorithm, assuming that **all processes arrive at time zero**. It begins by defining a structure to store process information, including process ID, burst time, completion time, turnaround time, and waiting time. The `read` function collects burst times for each process through user input.
