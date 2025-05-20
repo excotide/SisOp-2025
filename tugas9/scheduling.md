@@ -3,7 +3,8 @@
 ## 1. SJF Without Arrival Time (Non-Preemptive)
 
 ### Program Code:
-![Dev-c++ Code Screenshot](code-sjf1.png)
+![Image](https://github.com/user-attachments/assets/78c0141e-f4cf-474f-ad95-77e87e8fdece)
+![Image](https://github.com/user-attachments/assets/acc523e4-6cd5-4768-8bb4-01d7b9de41bb)
 
 ### Output:
 ![Image](https://github.com/user-attachments/assets/c26ebc24-655d-4931-bd56-e4ba3d9698fc)
@@ -18,11 +19,10 @@ In the `main` function, the program reads the total number of processes and thei
 ## 2. SJF With Arrival Time (Non-Preemptive)
 
 ### Program Code:
-![VS Code Screenshot](sjf1.jpg)  
-![VS Code Screenshot](sjf2.jpg)
-
+![Image](https://github.com/user-attachments/assets/c6ce4e7b-0bc8-4663-ba94-b042b965b283) 
+![Image](https://github.com/user-attachments/assets/db8490bb-7045-415b-811a-9820a410303f)
 ### Output:
-![Program Output Screenshot](output2.jpg)
+![Image](https://github.com/user-attachments/assets/de77d782-456a-4f5e-87c3-0c4788309299)
 
 ### Analysis:
 This C program implements the **non-preemptive SJF algorithm** that takes **arrival times into account**. Each process is represented using a structure that includes process ID, arrival time, burst time, start time, completion time, turnaround time, and waiting time.
@@ -36,11 +36,11 @@ For each scheduled process, the program calculates the start time, completion ti
 ## 3. SRTF (Preemptive) – Case Example as per PPT
 
 ### Program Code:
-![VS Code Screenshot](srtf1.jpg)  
-![VS Code Screenshot](srtf2.jpg)
+![Image](https://github.com/user-attachments/assets/960a4e7b-7383-4d4b-b7b2-215e0c3870d2)
+![Image](https://github.com/user-attachments/assets/b981562c-428d-46e3-b815-fed2bc8dfc22)
 
 ### Output:
-![Program Output Screenshot](output3.jpg)
+![Image](https://github.com/user-attachments/assets/57f14274-8abe-4525-97a3-3d507ce5ae19)
 
 ### Analysis:
 This C program simulates the **Shortest Remaining Time First (SRTF)** scheduling algorithm, which is the **preemptive version** of SJF. The structure used for each process includes process ID, arrival time, burst time, remaining time (initialized with burst time), completion time, turnaround time, and waiting time.
