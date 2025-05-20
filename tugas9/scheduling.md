@@ -3,10 +3,10 @@
 ## 1. SJF Without Arrival Time (Non-Preemptive)
 
 ### Program Code:
-![Dev-c++ Code Screenshot](code-jsf1.jpg)
+![Dev-c++ Code Screenshot](code-sjf1.png)
 
 ### Output:
-![Program Output Screenshot](output-jsf1.jpg)
+![Program Output Screenshot](output-sjf1.png)
 
 ### Analysis:
 This C program demonstrates the **non-preemptive Shortest Job First (SJF)** scheduling algorithm, assuming that **all processes arrive at time zero**. It begins by defining a structure to store process information, including process ID, burst time, completion time, turnaround time, and waiting time. The `read` function collects burst times for each process through user input.
