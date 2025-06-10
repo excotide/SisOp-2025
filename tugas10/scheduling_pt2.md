@@ -5,26 +5,30 @@
 Kasus ini mengasumsikan semua proses tiba pada waktu yang sama (waktu 0). Data proses diambil dari contoh di **Bagian 5.3.2 (Shortest-Job-First Scheduling)** dalam S10-Ch05.
 
 **Proses dan Burst Time:**
-* P1: 6 ms
-* P2: 8 ms
-* P3: 7 ms
-* P4: 3ms
+* P1: 6
+* P2: 8 
+* P3: 7 
+* P4: 3
 
 **Cara Kerja SJF Non-Preemptive (Semua tiba di waktu 0):**
 1.  Scheduler memilih proses dengan *burst time* terpendek.
-2.  P4 (3 ms) dieksekusi pertama. 
-3.  Kemudian P1 (6 ms).
-4.  Selanjutnya P3 (7 ms). 
-5.  Terakhir P2 (8 ms).
+2.  P4 (3) dieksekusi pertama. 
+3.  Kemudian P1 (6).
+4.  Selanjutnya P3 (7). 
+5.  Terakhir P2 (8).
 
-**Gantt Chart:**
-| Proses | Waktu Mulai | Waktu Selesai | Durasi |
-|--------|-------------|---------------|--------|
-| P4     | 0           | 3             | 3 ms   |
-| P1     | 3           | 9             | 6 ms   |
-| P3     | 9           | 16            | 7 ms   |
-| P2     | 16          | 24            | 8 ms   |
+```mermaid
+gantt
+    title Gantt Chart
+    dateFormat  X
+    axisFormat %s
 
+    section CPU Execution
+    P4 : 0, 3
+    P1 : 3, 9
+    P3 : 9, 16
+    P2 : 16, 24
+```
 ---
 
 ### 2. Shortest-Job-First (SJF) with Arrival Time (Non-Preemptive)
@@ -46,12 +50,17 @@ Scheduler membuat keputusan berdasarkan informasi yang ada pada saat keputusan t
 4.  **Waktu 9.0 (P3 selesai):** Hanya P2 yang tersisa. P2 dieksekusi (selama 4 ms).
 5.  **Waktu 13.0 (P2 selesai):** Semua proses selesai.
 
-**Gantt Chart (untuk Practice Exercise 5.3b):**
-| Proses | Waktu Mulai | Waktu Selesai | Durasi |
-|--------|-------------|---------------|--------|
-| P1     | 0.0         | 8.0           | 8.0    |
-| P3     | 8.0         | 9.0           | 1.0    |
-| P2     | 9.0         | 13.0          | 4.0    |
+```mermaid
+gantt
+    title Gantt Chart (untuk Practice Exercise 5.3b)
+    dateFormat  X
+    axisFormat %s
+
+    section CPU Execution
+    P1 : 0, 8
+    P3 : 8, 9
+    P2 : 9, 13
+```
 ---
 
 ### 3. Shortest Remaining Time First (SRTF) (SJF Preemptive)
@@ -74,12 +83,16 @@ Kasus ini menggunakan waktu kedatangan dan sifat preemptive, diambil dari contoh
 7.  **Waktu 17:** P1 selesai. Tersedia: P3 (Burst 9). P3 dipilih. 
 8.  **Waktu 26:** P3 selesai. 
 
-**Gantt Chart:**
-| Segmen Eksekusi | Proses | Waktu Mulai | Waktu Selesai | Durasi | Catatan      |
-|-----------------|--------|-------------|---------------|--------|--------------|
-| 1               | P1     | 0           | 1             | 1      | Di-preempt   |
-| 2               | P2     | 1           | 5             | 4      | Selesai      |
-| 3               | P4     | 5           | 10            | 5      | Selesai      |
-| 4               | P1     | 10          | 17            | 7      | Selesai      |
-| 5               | P3     | 17          | 26            | 9      | Selesai      |
+```mermaid
+gantt
+    title Gantt Chart
+    dateFormat  X
+    axisFormat %s
 
+    section CPU Execution
+    P1 : 0, 1
+    P2 : 1, 5
+    P4 : 5, 10
+    P1 : 10, 17
+    P3 : 17, 26
+```
